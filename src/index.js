@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import reportWebVitals from './reportWebVitals';
 import TodoContainer from './components/TodoContainer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -9,3 +10,5 @@ root.render(
     <TodoContainer />
   </React.StrictMode>,
 );
+
+reportWebVitals();
